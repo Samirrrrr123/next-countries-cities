@@ -14,5 +14,3 @@ npm run dev
 Открыть http://localhost:3000.
 
 Сборка: `npm run build`.
-
-Авторы фотографий и лицензии: [PHOTOS.md](PHOTOS.md).
