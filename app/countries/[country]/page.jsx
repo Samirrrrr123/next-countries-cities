@@ -17,7 +17,7 @@ export default async function CountryPage({ params }) {
   return (
     <>
       <Link href="/" className="back">← Все страны</Link>
-      <h1>{country.name}</h1>
+      <h1><img src={country.image} alt={country.name} className="flag" />{country.name}</h1>
       <section className="info">
         <h2>Описание страны</h2>
         <p>Язык: {country.language}</p>
