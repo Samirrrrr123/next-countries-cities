@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-header, main, footer {
+header, main {
   max-width: 760px;
   margin: 0 auto;
   padding: 24px;
@@ -78,7 +78,30 @@ p {
   margin: 8px 0;
 }
 
-footer {
+
+
+.flag {
+  width: 48px;
+  height: 30px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+figure {
+  margin: 24px 0;
+}
+
+.city-photo {
+  display: block;
+  width: 100%;
+  max-height: 380px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
   color: #6a7588;
-  font-size: 13px;
+  font-size: 12px;
 }

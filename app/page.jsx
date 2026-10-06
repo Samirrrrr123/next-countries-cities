@@ -9,7 +9,7 @@ export default function HomePage() {
       <ul className="links">
         {countries.map(country => (
           <li key={country.id}>
-            <Link href={`/countries/${country.id}/`}>{country.name} →</Link>
+            <Link href={`/countries/${country.id}/`}><img src={country.image} alt={country.name} className="flag" />{country.name} →</Link>
           </li>
         ))}
       </ul>

@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Страны и города',
-  description: 'Учебный проект на Next.js',
+  description: 'Описание стран и городов',
 }
 
 export default function RootLayout({ children }) {
@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
       <body>
         <header><Link href="/">Страны и города</Link></header>
         <main>{children}</main>
-        <footer>Учебные данные. Площадь и население округлены.</footer>
       </body>
     </html>
   )
