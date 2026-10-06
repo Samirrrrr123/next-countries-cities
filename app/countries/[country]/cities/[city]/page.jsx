@@ -28,9 +28,6 @@ export default async function CityPage({ params }) {
       <h1>{city.name}</h1>
       <figure>
         <img src={city.image} alt={city.name} className="city-photo" />
-        <figcaption>
-          Фото: <a href={city.photoSource}>{city.photoAuthor}</a> · <a href={city.licenseUrl}>{city.photoLicense}</a>
-        </figcaption>
       </figure>
       <section className="info">
         <h2>Описание города</h2>
